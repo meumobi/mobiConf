@@ -27,6 +27,9 @@ angular.module('jsconfuy', [
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+		if (navigator.splashscreen) {
+			navigator.splashscreen.hide();
+		}
   });
 })
 
