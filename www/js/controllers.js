@@ -28,8 +28,8 @@ angular.module('jsconfuy.controllers', [])
 .controller('VenueCtrl', function($scope) {
   //map with venue position
   $scope.position = {
-    lat: -34.892589,
-    lng: -56.194638
+    lat: -23.6643672,
+    lng: -46.6994175
   };
 
   $scope.$on('mapInitialized', function(event, map) {

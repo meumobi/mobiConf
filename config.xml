@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.jsconfuy792109" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>jsconfuy</name>
+<widget id="com.meumobi.mobiconf" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>D. Conf</name>
   <description>
-        An Ionic Framework and Cordova project.
+        A Deloitte Conference
     </description>
   <author email="hi@ionicframework" href="http://ionicframework.com/">
       Ionic Framework Team
@@ -47,12 +47,6 @@
     <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
   </platform>
   <platform name="android">
-    <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
-    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
-    <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
-    <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
-    <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
-    <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
     <splash src="resources/android/splash/drawable-land-ldpi-screen.png" density="land-ldpi"/>
     <splash src="resources/android/splash/drawable-land-mdpi-screen.png" density="land-mdpi"/>
     <splash src="resources/android/splash/drawable-land-hdpi-screen.png" density="land-hdpi"/>
@@ -66,5 +60,13 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <icon src="resources/ios/icon/icon-small@3x.png"/>
+	<!-- default mandatory icon 120x120px-->
+	<icon src="icon.png" />
+
+	<icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/android/drawable-ldpi/ic_launcher.png" />
+	<icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/android/drawable-mdpi/ic_launcher.png" />
+	<icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/android/drawable-hdpi/ic_launcher.png" />
+	<icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/android/drawable-xhdpi/ic_launcher.png" />
+	<icon gap:platform="android" gap:qualifier="xxhdpi" src="res/icon/android/drawable-xxhdpi/ic_launcher.png" />
+	<icon gap:platform="android" gap:qualifier="fr-xxhdpi" src="res/icon/android/drawable-xxxhdpi/ic_launcher.png" />
 </widget>
