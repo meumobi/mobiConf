@@ -25,19 +25,6 @@
 	<gap:plugin name="nl.x-services.plugins.socialsharing" />
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
 	
-  <platform name="ios">
-    <splash src="resources/ios/splash/Default-568h@2x~iphone.png" width="640" height="1136"/>
-    <splash src="resources/ios/splash/Default-667h.png" width="750" height="1334"/>
-    <splash src="resources/ios/splash/Default-736h.png" width="1242" height="2208"/>
-    <splash src="resources/ios/splash/Default-Landscape-736h.png" width="2208" height="1242"/>
-    <splash src="resources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
-    <splash src="resources/ios/splash/Default-Landscape~ipad.png" width="1024" height="768"/>
-    <splash src="resources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
-    <splash src="resources/ios/splash/Default-Portrait~ipad.png" width="768" height="1024"/>
-    <splash src="resources/ios/splash/Default@2x~iphone.png" width="640" height="960"/>
-    <splash src="resources/ios/splash/Default~iphone.png" width="320" height="480"/>
-  </platform>
-	
 	<!-- default mandatory icon 120x120px-->
 	<icon src="icon.png" />
 
@@ -79,7 +66,7 @@
 	<icon src="res/icon/ios/Icon-Small-50@2x.png" gap:platform="ios" width="100" height="100" />
 	
 	<!-- default mandatory splash 320x480px-->
-	<gap:splash src="screen.9.png" />
+	<gap:splash src="splash.png" />
 	<gap:splash gap:platform="android" gap:qualifier="ldpi" src="res/screen/android/drawable-ldpi/screen.9.png" />
 	<gap:splash gap:platform="android" gap:qualifier="mdpi" src="res/screen/android/drawable-mdpi/screen.9.png" />
 	<gap:splash gap:platform="android" gap:qualifier="hdpi" src="res/screen/android/drawable-hdpi/screen.9.png" />
