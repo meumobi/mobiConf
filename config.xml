@@ -11,11 +11,11 @@
   <access origin="*"/>
 	
   <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
+  <!--preference name="UIWebViewBounce" value="false"/ -->
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
 	<!-- Do not auto hide splash on iOS -->
-	<preference name="AutoHideSplashScreen" value="false" />
+	<preference name="AutoHideSplashScreen" value="true" />
 	<!-- Do not auto hide splash on Android -->
 	<preference name="SplashScreenDelay" value="10000"/>
   <feature name="StatusBar">

@@ -28,6 +28,7 @@ angular.module('jsconfuy', [
       StatusBar.styleDefault();
     }
 		if (navigator.splashscreen) {
+			navigator.splashscreen.show();
 			navigator.splashscreen.hide();
 		}
   });
